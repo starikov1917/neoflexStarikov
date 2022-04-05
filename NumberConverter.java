@@ -4,14 +4,12 @@ import java.util.Scanner;
 public class NumberConverter {
 	
 	// первое задание
-	
 	public static String from10to16(int num) {		
 		return Integer.toHexString(num);
 	}
 	
 	
 	// второе задание
-	
 	public static String from10to2(int n) {
 			return Integer.toBinaryString(n);
 	}
