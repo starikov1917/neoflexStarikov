@@ -1,0 +1,1 @@
+document.querySelector("#cart-counter").textContent = sessionStorage.count ? sessionStorage.count : 0

@@ -1,0 +1,101 @@
+<! doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="menu">
+                <a class="logo" href="index.html">QPICK</a>
+                <div class="menu-icons">
+                    
+                    <a href="" class="menu-element">
+                        <img src="images/like-icon.svg" alt="">
+                        <div class="counter">2</div>
+                    </a>
+                    <a href="cart.html" class="menu-element">
+                        <img src="images/cart-icon.svg" alt="">
+                        <div id="cart-counter" class="counter"></div>
+                    </a>                              
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cart-container">                                           			
+        	<div class="cartList">
+        		<div class="cartElement">
+					<div class="firstLayer">         		        		  
+						<div class="cartElementFirstLine">
+							<image class="cartElementImage" src="images/Image-4.png" alt=""></image>
+							<image class="closeIcon" src="images/closeIcon.png"></image>						
+						</div>       			
+						<div class="cartElementSecondLine">
+							<div class="quantityPanel">
+								<a class="quantityButton" id="minus">
+									<span></span>
+								</a>
+								<div class="quantity">2</div>
+								<a class="quantityButton" id="plus">
+									<span></span>
+									<span style="width: 2px; height: 16px;position: absolute"></span>
+								</a>
+							</div>
+							<div class="priceForQuantity">12025 P</div>
+						</div>       		       		
+					</div>
+					<div class="secondLayer">
+						<div class="infoPanel">
+							<div class="titleInCart">asdasdASdasd</div>
+							<div class="unitPrice">123 P</div>							
+						</div>
+					</div>
+        		</div>       		   
+			</div>              
+       		<div class="totalPanel">
+       			<div class="firstTotalPanel">
+       				<div class="totalLabel">ИТОГО</div>
+       				<div class="priceForQuantity" id="finalCost">12025 P</div>
+       			</div>
+       			<div class="checkOutButton">Перейти к оформлению</div>
+       		</div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-columns">
+                <div class="logo-col">
+                    <a class="logo" href="#">QPICK</a>
+                </div>
+                <div class="info-col">
+                    <a class="footer-link" href="#">Избранное</a>
+                    <a class="footer-link" href="#">Корзина</a>
+                    <a class="footer-link" href="#">Контакты</a>
+                </div>
+                <div class="info-col">
+                    <a class="footer-link" href="#">Условия сервиса</a>
+                    <div class="lang-row">
+                        <img class="earth" src="./images/earth.svg" alt="">
+                        <a class="lang-link">Рус</a>
+                        <a class="lang-link">Eng</a>
+                    </div>
+                </div>
+                <div class="logo-col">
+                    <div class="social-media-icons">
+                        <img src="./images/VK.png" alt="">
+                        <img src="./images/Telegram.png" alt="">
+                        <img src="./images/Whatsapp.png" alt="">                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <script type="text/javascript" src="setCounterValue.js"></script>
+    <script type="text/javascript" src="cartFilling.js"></script>
+</body>
+</html>
+    
