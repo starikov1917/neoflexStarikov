@@ -50,8 +50,8 @@ a {
 }
 
 main {
-  min-height: 100%;
-  padding-bottom: 149px;
+    min-height: 100%;
+    padding-bottom: 149px;
 }
 
 .counter {
@@ -88,10 +88,10 @@ h2 {
 }
 
 .catalog {
-	display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit, 350px);
     grid-gap: 31px 30px;
-	margin-bottom: 31px;
+    margin-bottom: 31px;
 
 }
 
@@ -139,8 +139,6 @@ h2 {
     font-weight: 600;
 }
 
-
-
 .element-price {
     color: #FFA542;
     font-size: 17px;
@@ -151,7 +149,7 @@ h2 {
     color: #111111;
     font-size: 17px;
     font-weight: 600;
-	cursor: pointer;
+    cursor: pointer;
 }
 
 footer {
@@ -209,33 +207,33 @@ footer {
 }
 
 .pageName {
-	font-size: 20px;
-	font-weight: 600;
-	padding-bottom: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 12px;
 }
 
 .cartElement {
-	width: 633px;
-	height: 218px;
-	background: #FFFFFF;
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-	border-radius: 30px;	
-	display: flex;	
-	margin-bottom: 30px;
+    width: 633px;
+    height: 218px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;	
+    display: flex;	
+    margin-bottom: 30px;
 }
 
 .firstLayer {
-	padding: 18px 28px;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
-	z-index: 1;
+    padding: 18px 28px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    z-index: 1;
 }
 
 .cartElement:first-child {
-	display: none;
+    display: none;
 }
 
 .secondLayer {
@@ -248,59 +246,59 @@ footer {
 }
 
 .infoPanel {
-	margin: 0;
+    margin: 0;
 }
 
 .cartElementFirstLine{
-	height: 136px;	
-	display: flex;
-	justify-content: space-between;	
+    height: 136px;	
+    display: flex;
+    justify-content: space-between;	
 }
 
 .titleInCart {
-	font-size: 17px;
-	font-weight: 600;
-	margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 12px;
 		
 }
 
 .cartElementSecondLine{
-	display: flex;
-	justify-content: space-between;		
-	align-items: center;
+    display: flex;
+    justify-content: space-between;		
+    align-items: center;
 }
 
 .quantityPanel {
-	display: inherit;
+    display: inherit;
     align-items: center;	
 }
 
 .cartElementImage {
-	height: 100%;
-	max-width: 150px;
-	display: block;
+    height: 100%;
+    max-width: 150px;
+    display: block;
 }
 
 
 .closeIcon {
-	height: 17px;
+    height: 17px;
 }
 
 .elementDescription {
-	position: absolute;
-	height: 100%;		
-	align-items: center;
+    position: absolute;
+    height: 100%;		
+    align-items: center;
 }
 
 .quantityButton {
-	width: 35;
-	height: 30px;
-	background: #FFCE7F;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;	
-	align-items: center;
-	cursor: pointer;
+    width: 35;
+    height: 30px;
+    background: #FFCE7F;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;	
+    align-items: center;
+    cursor: pointer;
 }
 
 .quantityButtonsImage {
@@ -310,81 +308,80 @@ footer {
 }
 
 .quantity {
-	width: 55px;
-	text-align: center;
-	font-size: 17px;
-	font-weight: 600;
+    width: 55px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 
 .quantityButton span {
-	width: 16px;
-	height: 2px;
-	background: #ffffff;
+    width: 16px;
+    height: 2px;
+    background: #ffffff;
 }
 
 
 .priceForQuantity {
-	font-size: 15px;
-	font-weight: 600;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .unitPrice {
-	font-size: 15px;
-	font-weight: 600;
-	color: #AAAAAA;
+    font-size: 15px;
+    font-weight: 600;
+    color: #AAAAAA;
 }
 
 
 .totalPanel {
-	width: 350px;
-	height: 120px;
-	background: #FFFFFF;
-	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-	border-radius: 30px;	
-	display: flex;	
-	
+    width: 350px;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;	
+    display: flex;	
 }
 
 .cart-container {
-	width: 1110px;
+    width: 1110px;
     margin: auto;
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .checkOutButton {
-	background: #111111;
-	height: 65px;
-	color: #ffffff;
-	border-radius: 20px;
-	font-size: 17px;
-	font-weight: 600;
-	align-items: center;
-	display: flex;
-	justify-content: center;
-	width: 100%;
+    background: #111111;
+    height: 65px;
+    color: #ffffff;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .totalPanel {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .firstTotalPanel {
-	display: flex;
-	justify-content: space-between;
-	margin: 21px 21px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 21px 21px 0;
 
 }
 
 .totalLabel {
-	font-size: 15px;
-	font-weight: 600;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .priceForQuantity {
-	font-size: 15px;
-	font-weight: 600;
+    font-size: 15px;
+    font-weight: 600;
 }
